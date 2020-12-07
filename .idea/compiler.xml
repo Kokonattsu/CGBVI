@@ -2,23 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-jt-demo-provider" />
         <module name="jt_order" />
-        <module name="jt_common" />
-        <module name="jt_manage" />
+        <module name="jt_web" />
         <module name="dubbo-jt-demo-provider2" />
+        <module name="jt_sso" />
+        <module name="jt_manage" />
+        <module name="springboot_demo03" />
+        <module name="dubbo-jt-demo-consumer" />
+        <module name="springboot_demo01" />
+        <module name="springboot_demo02" />
+        <module name="jt_common" />
         <module name="jt_cart" />
         <module name="dubbo-jt-demo-interface" />
-        <module name="springboot_demo01" />
-        <module name="dubbo-jt-demo-consumer" />
-        <module name="springboot_demo02" />
-        <module name="jt_sso" />
-        <module name="springboot_demo03" />
-        <module name="jt_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
